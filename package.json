@@ -9,6 +9,9 @@
         "@angular/core": "*",
         "rxjs": "*"
     },
+    "scripts": {
+        "git": "git add . && git commit -m 'update to save' && git push origin master"
+    },
     "ngPackage": {
         "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
         "dest": "./publish/weui-input-cell",
@@ -16,5 +19,6 @@
         "lib": {
             "entryFile": "./public_api.ts"
         }
-    }
+    },
+    "dependencies": {}
 }

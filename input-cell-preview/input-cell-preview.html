@@ -1,0 +1,9 @@
+<div class="weui-cell" [class.focus]="props.focus">
+    <div class="weui-cell__hd" [ngStyle]="props.style">
+        <label class="weui-label">{{props.title}}</label>
+    </div>
+    <div class="weui-cell__bd">
+        <input class="weui-input" #input [attr.type]="props.type" [attr.placeholder]="props.placeholder">
+    </div>
+</div>
+<ng-container *ngComponent="props.children;preview: true;"></ng-container>

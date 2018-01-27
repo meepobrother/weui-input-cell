@@ -1,0 +1,29 @@
+<div class="weui-cells weui-cells_form" [class.focus]="props.focus">
+    <div class="weui-cell">
+        <div class="weui-cell__hd">
+            <label class="weui-label">标题</label>
+        </div>
+        <div class="weui-cell__bd">
+            <input class="weui-input" type="text" placeholder="title" [(ngModel)]="props.title">
+        </div>
+    </div>
+    <div class="weui-cell">
+        <div class="weui-cell__hd">
+            <label class="weui-label">字段</label>
+        </div>
+        <div class="weui-cell__bd">
+            <input class="weui-input" type="text" placeholder="name" [(ngModel)]="props.name">
+        </div>
+    </div>
+
+    <div class="weui-cell">
+        <div class="weui-cell__hd">
+            <label class="weui-label">提示输入</label>
+        </div>
+        <div class="weui-cell__bd">
+            <input class="weui-input" type="text" placeholder="placeholder" [(ngModel)]="props.placeholder">
+        </div>
+    </div>
+</div>
+
+<ng-container *ngComponent="props.children;preview: false;"></ng-container>

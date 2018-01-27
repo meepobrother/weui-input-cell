@@ -62,9 +62,7 @@ export class InputCellPreviewComponent extends ReactComponent<InputCellProps, an
             });
     }
 
-    onPropsChange() {
-        console.log(this.props);
-    }
+    onPropsChange() {}
 
     onStateChange() { }
 }

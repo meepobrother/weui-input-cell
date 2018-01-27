@@ -11,7 +11,7 @@
     },
     "ngPackage": {
         "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
-        "dest": "./dist/weui-input-cell",
+        "dest": "./publish/weui-input-cell",
         "workingDirectory": "./.ng_build",
         "lib": {
             "entryFile": "./public_api.ts"
